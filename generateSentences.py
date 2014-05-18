@@ -10,7 +10,7 @@ P0 = [('S','A','B'),('S','A','R'),('R','S','B')]
 """
 Returns a default dictionary given a grammar
 For example, ('S','A','R') in input turns into a key value pair with 
-'S' as key and a tuple of ('A','R') as value
+'S' as key and a list containing the tuple of ('A','R') as value
 """
 def processGrammar(PL,P):
 	# lexical productions
